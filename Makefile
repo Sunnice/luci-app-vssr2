@@ -169,6 +169,7 @@ define Build/Compile
 endef
 
 define Package/luci-app-vssr-plus/conffiles
+/etc/china_ssr.txt
 /etc/ssr_ip
 /etc/dnsmasq.vssr/gfw_list.conf
 endef
